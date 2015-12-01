@@ -630,7 +630,7 @@ $ find public -type f -name '*.html' | xargs ls -l
 $ 
 ```
 
-The new files are empty because because the templates used to generate the content are empty. The homepage doesn't show the new content, either.
+The new files are empty because the templates used to generate the content are empty. The homepage doesn't show the new content, either.
 
 ```bash
 $ cat public/index.html 
